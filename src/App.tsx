@@ -202,35 +202,26 @@ export default function App() {
   return (
     <div className="app-shell">
       <header className="site-header">
-        <a className="brand" href="#top">
-          <img className="mark-photo" src={avatar} alt="" />
-          <span className="brand-name">Mehul Gawde</span>
-        </a>
         <nav className="nav" aria-label="Primary">
           <a href="#work">Work</a>
           <a href="#craft">Craft</a>
           <a href="#path">Experience</a>
         </nav>
-        <div className="header-actions">
-          <a className="pill" href="mailto:mehulgawdenxt@gmail.com">
-            Email me <span aria-hidden="true">↗</span>
-          </a>
-        </div>
       </header>
 
       <main id="top">
         <section className="hero">
           <div className="hero-copy">
+            <a className="brand hero-brand" href="#top">
+              <img className="mark-photo" src={avatar} alt="" />
+              <span className="brand-name">Mehul Gawde</span>
+            </a>
             <SocialLinks />
-            <h1>
-              Engineering clarity
-              <br />
-              into complexity.
-            </h1>
+            <h1>Building human-assisted intelligent systems</h1>
             <p className="lede">
-              Full-stack AI engineer shipping production SaaS with TypeScript,
-              Python, Next.js and the Vercel AI SDK — multi-tenant systems, not
-              demos.
+              Conversational CRMs, AI slide generators, mobile apps for workout
+              logging, agent inboxes for hiring pipelines, browser card games,
+              automation for outreach and job search, and iOS and Mac utilities.
             </p>
             <div className="hero-cta">
               <a className="pill filled" href="/Resume.pdf" download>
